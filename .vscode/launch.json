@@ -10,7 +10,8 @@
           "request": "attach",
           "program": "${workspaceFolder}/objs/nginx",
           "processId": "52546", // 填写 Worker 进程 PID
-          "MIMode": "gdb"
+          "MIMode": "lldb",
+        //   "MIMode": "gdb"
       },
       {
           "name": "(lldb) Launch",
@@ -22,8 +23,9 @@
           "cwd": "${workspaceFolder}",
           "environment": [],
           "externalConsole": true,
-          "MIMode": "gdb",
-          "miDebuggerPath": "/usr/bin/gdb",
+          "MIMode": "lldb",
+        //   "MIMode": "gdb",
+        //   "miDebuggerPath": "/usr/bin/gdb",
           "setupCommands": [
               {
                   "description": "Enable pretty-printing for gdb",
