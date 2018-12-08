@@ -1,1 +1,0 @@
-2018/12/08 15:43:28 [error] 14725#0: *1 open() "./nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.31.224, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.31.96:8080"
