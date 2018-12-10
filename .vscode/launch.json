@@ -9,7 +9,7 @@
           "type": "cppdbg",
           "request": "attach",
           "program": "${workspaceFolder}/objs/nginx",
-          "processId": "34965", // 填写 Worker 进程 PID
+          "processId": "32629", // 填写 Worker 进程 PID
           "MIMode": "lldb",
         //   "MIMode": "gdb"
       },
