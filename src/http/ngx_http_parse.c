@@ -145,6 +145,7 @@ ngx_http_parse_request_line(ngx_http_request_t *r, ngx_buf_t *b)
     state = r->state;
 
     for (p = b->pos; p < b->last; p++) {
+        printf("内容1111=%s", p);
         ch = *p;
 
         switch (state) {

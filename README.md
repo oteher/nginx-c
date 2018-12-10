@@ -162,3 +162,6 @@ stable  | Nginx稳定版1.14.2|无
 * auto
 * mail
 * misc
+
+
+.ngx-1.14.0-read,.ngx-1.14.0,.docs
